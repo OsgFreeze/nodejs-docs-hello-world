@@ -62,6 +62,18 @@ app.get('/api', function (req, res) {
     return res.send("Fabrikam Bank API");
 })
   
+
+app.get('/name',function(req, res){
+return res.send("Test");
+
+})
+
+
+
+
+
+
+
 // ----------------------------------------------
   // Create an account
 router.post('/accounts', (req, res) => {
